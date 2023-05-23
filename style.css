@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial,sans-serif;
+    
+}
+
+body{
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: right;
+    height: 60px;
+    padding: 0 12px;
+
+}
+
+header .options{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+}
+
+header .options a {
+    text-decoration:none;
+    color: rgba(0,0,0,.87);
+}
+
+
+.dots_logo{
+    display: inline-block;
+    background-image: url(dots-logo.svg);
+    height: 24px;
+    width: 24px;
+    background-color:gray;
+}
+
+header .options a img{
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+}
+
+
+main{
+    height:90%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+main .container{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 20px;
+
+}
+
+main .container .searcher_buttons button{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+main .container .ofrecido{
+    display:flex;
+    justify-content: center;
+    color: #3c4043;
+    font-size: small;
+    width: 500px;
+}
+
+main .container .ofrecido p{
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+main .container .searcher{
+ display: flex;
+ justify-content: center;
+ background-color:white;
+ padding: 5px 8px 0 14px;
+ height: 30px;
+ width: 500px;
+ border-radius: 20px;
+ border: 0.5px solid;
+ 
+}
+
+
+main .container .searcher input{
+      display:flex;
+      height: 90%;
+      width: 90%;
+      background-color:transparent;
+      border:none;               
+}
+
+.search-logo{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: transparent;  
+}
+
+
+main .container .searcher button{
+    border: none;
+    background-color:transparent;
+}
+   
+
+.final {
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    font-size: 15px;
+    font-family: arial,sans-serif;
+    padding: 10px;
+    border-bottom: 1px solid #dadce0;
+    color: #70757a;
+    background-color:rgb(221, 221, 221);
+    
+    
+}
+
